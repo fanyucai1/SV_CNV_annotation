@@ -19,7 +19,9 @@
 
 [2007_phenotype.zip](https://data.monarchinitiative.org/exomiser/data/2007_phenotype.zip)
 
-CosmicCompleteCNA.tsv.gz (将该文件放到$ANNOTSV/share/AnnotSV/Annotations_Human/FtIncludedInSV/COSMIC/GRCh37/)
+[CosmicCompleteCNA.tsv.gz](https://cancer.sanger.ac.uk/cosmic) 
+
+(将该文件放到$ANNOTSV/share/AnnotSV/Annotations_Human/FtIncludedInSV/COSMIC/GRCh37/)
 
 ### 4.数据库解压
 
@@ -39,8 +41,11 @@ bedtools,bcftools,tcl(**一般linux已经存在，which tclsh**)
 在运行示例的时候，会同时对COSMIC数据库文件进行处理，在:
 
     $ANNOTSV/share/AnnotSV/Annotations_Human/Users/GRCh37/FtIncludedInSV
-    生产：
+    
+    生成：
+    
     CosmicCompleteCNA_GRCh37.formatted.sorted.bed  CosmicCompleteCNA_GRCh37.header.tsv
+    
     以后每次运行就不需要在做特殊处理了。
 
 ### 7.数据输入格式
